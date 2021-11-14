@@ -18,7 +18,9 @@
 # W                             Withdrawn
 # D                             Dropeed
 
-grade = int(input("Grade: "))
+import math
+_grade = float(input("Grade: "))
+grade = math.ceil (_grade)
 
 if grade >= 97 and grade <= 100:
     print("Excellent! Your grade is 1.0!")
