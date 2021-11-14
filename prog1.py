@@ -18,9 +18,13 @@
 # Inc.                          Incomplete
 # W                             Withdrawn
 # D                             Dropeed
+import math
+def round_half_up(n, decimals=0):
+    multiplier = 10 ** decimals
+    return math.floor(n*multiplier + 0.5) / multiplier
 
 _grade = float(input("Grade: "))
-grade = round (_grade)
+grade = round_half_up(_grade)
 
 if grade >= 97 and grade <= 100:
     print("Excellent! Your grade is 1.0!")
