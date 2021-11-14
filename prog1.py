@@ -45,4 +45,4 @@ elif grade >= 65 and grade <= 74:
 else:
     print("Your grade is either Inc. means Incomplete, W means Withdrawn, or D means Dropped")
 
-print("Your grade is recorded!")
+print("Your grade has been recorded!")
