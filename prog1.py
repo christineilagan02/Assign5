@@ -18,6 +18,7 @@
 # Inc.                          Incomplete
 # W                             Withdrawn
 # D                             Dropeed
+
 import math
 def round_half_up(n, decimals=0):
     multiplier = 10 ** decimals
